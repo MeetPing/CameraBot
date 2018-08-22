@@ -1,1 +1,2 @@
-<script>window.location = "https://";</script>
+Camera Bot
+for discord Camera Bot
