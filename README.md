@@ -1,2 +1,3 @@
+**Camera Bot**
 
-**for discord Camera Bot**
+*for discord Camera Bot*
