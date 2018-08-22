@@ -2,6 +2,16 @@
 <html>
   <head>
     <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script>
+      var xhr = new XMLHttpRequest();
+      var cResponse = window.location.search.substring("g-recaptcha-response=");
+      xhr.open("POST", "https://www.google.com/recaptcha/api/siteverify", true);
+      xhr.setRequestHeader('Content-Type', 'application/json');
+      xhr.send({
+        secret: "6LfJT2sUAAAAAIludH_SzD4HTrevGH78TIjWyKja",
+        response: cResponse
+      });
+    </script>
   </head>
   <body>
     <form action="" method="get">
