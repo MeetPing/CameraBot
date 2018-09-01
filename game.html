@@ -3,7 +3,8 @@
 <script> 
 var ctx = document.getElementById("ctx").getContext("2d"); 
 ctx.font = '30px Arial';
-
+console.log("WASD to move left-click to shoot");
+console.log("right-click to shoot 3 bullets");
 var HEIGHT = 500;
 var WIDTH = 500;
 var timeWhenGameStarted = Date.now();  //return time in ms
@@ -313,6 +314,7 @@ update = function(){
   startNewGame();
  }
 ctx.fillText(" open console to see info",0,50);
+
  player.update();
  ctx.fillText(player.hp + " Hp",0,30);
  ctx.fillText('Score: ' + score,200,30);
