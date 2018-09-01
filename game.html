@@ -312,6 +312,7 @@ update = function(){
   console.log("You lost! You survived for " + timeSurvived + " ms.");  
   startNewGame();
  }
+ctx.fillText(" open console to see info",0,50);
  player.update();
  ctx.fillText(player.hp + " Hp",0,30);
  ctx.fillText('Score: ' + score,200,30);
