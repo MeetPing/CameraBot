@@ -1,24 +1,19 @@
-<!DOCTOTYPE html>
-<head>
-  <body>
-    
-<input type="submit" value="Games">
-</head>
-  </body>
-<script>
-
-    function checkIfGames(){    
-
-        if(a.value == "Games")           
-<script>window.location = "https:/camerabot.cf/game";</script>
-
-            document.getElementById("Games").setAttribute("style","display:inline");
-
-        else
-
-            document.getElementById("Games").setAttribute("style","display:none");
-
-
-        }
-
-</script>
+<body>
+<p id="demo">
+</p>
+<h1>
+    What would you like it to say?</h1>
+<p>
+    Commmon Requests:</p>
+<form action="input" id="form1" action="random.html" method="get">
+<select name="requests" onchange="check(this)">
+    <option value="game"></option>
+    <option value="login">Good Morning Sir</option>
+    <option value="register">Good Morning Madam</option>
+    <option value="media">Other</option>
+    <input type="submit" value="Submit">
+</select>
+</form>
+<br>
+<br>
+<textarea rows="3" cols="30">
