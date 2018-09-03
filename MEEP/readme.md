@@ -1,5 +1,4 @@
 # Commands
-
 <table>
   <tr>
     <th>Command</th>
