@@ -11,7 +11,7 @@
   </tr>
   <tr>
     <td>M/info</td>
-    <td>Shows information about Camera Bot</td>
+    <td>Shows information about MEEP</td>
   </tr>
     <tr>
     <td>M/foo</td>
