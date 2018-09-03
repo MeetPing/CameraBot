@@ -14,10 +14,10 @@
   </tr>
     <tr>
     <td>M/foo</td>
-    <td>gives reply `bar!`</td>
+    <td>gives reply bar!</td>
   </tr>
       <tr>
     <td>M/ping</td>
-    <td>gives reply `pong`</td>
+    <td>gives reply pong</td>
   </tr>
 </table>
