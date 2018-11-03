@@ -1,6 +1,6 @@
 {
-  "response_type:" "in_channel",
-  "text": "MEEP YEET"
+  response_type: "in_channel",
+  text: "MEEP YEET"
 
 
 } 
