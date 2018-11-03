@@ -1,7 +1,0 @@
-{
-  slack: {
-  response_type: "in_channel",
-  text: "MEEP YEET"
-  }
-
-} 
