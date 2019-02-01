@@ -1,4 +1,4 @@
-**hey here are the rules**
+**hey here are the rules**/n
 ***Follow these and dont get a ban***
 **1)do not break these rules**
 **2)do not swear**
