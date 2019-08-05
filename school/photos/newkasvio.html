@@ -9,8 +9,10 @@
   <button class="w3-bar-item w3-button w3-large"
   onclick="w3_close()">Sulje &times;</button>
   <a onclick="mustikka()" class="w3-bar-item w3-button">Mustikka</a>
-  <a href="https://www.camerabot.cf/school/photos/puolukka.jpg" class="w3-bar-item w3-button">Puolukka</a>
-  <a href="#" class="w3-bar-item w3-button">...</a>
+  <a onclick="puolukka()" class="w3-bar-item w3-button">Puolukka</a>
+  <a onclick="paivankakkara()" class="w3-bar-item w3-button">P&auml;iva&auml;kakkara</a>
+  <a onclick="kissankello()" class="w3-bar-item w3-button">Kissankello</a>
+   <a onclick="piharatamo()" class="w3-bar-item w3-button">Piharatamo</a>
 </div>
 
 <div id="main">
@@ -45,6 +47,27 @@ function mustikka() {
       document.getElementById("foto").innerHTML = "<img src='https://www.camerabot.cf/school/photos/mustikka.jpg' height='300'></img>"
       w3_close()
 }
+  function puolukka() {
+      document.getElementById("info").innerHTML = "Nimi: Puolukka <br> Paikkakunta: Joensuu <br> Elinpaikka: Mets&auml;"
+      document.getElementById("foto").innerHTML = "<img src='https://www.camerabot.cf/school/photos/puolukka.jpg' height='300'></img>"
+      w3_close()
+}
+    function kissankello() {
+      document.getElementById("info").innerHTML = "Nimi: Kissankello <br> Paikkakunta: Maksniemi <br> Elinpaikka: Niitty ja piennar"
+      document.getElementById("foto").innerHTML = "<img src='IMG_20190721_191925_kissankello.jpg' height='300'></img>"
+      w3_close()
+}
+      function piharatamo() {
+      document.getElementById("info").innerHTML = "Nimi: Kissankello <br> Paikkakunta: Maksniemi <br> Elinpaikka: Kaupunki-ymp&auml;risto"
+      document.getElementById("foto").innerHTML = "<img src='IMG_20190717_154813_piharatamo.jpg' height='300'></img>"
+      w3_close()
+}
+        function paivankakkara() {
+      document.getElementById("info").innerHTML = "Nimi: P&auml;iv&auml;nkakkara <br> Paikkakunta: Maksniemi <br> Elinpaikka: Kaupunki-ymp&auml;risto"
+      document.getElementById("foto").innerHTML = "<img src='IMG_20190717_154644_paivankakkara.jpg' height='300'></img>"
+      w3_close()
+}
+  
 </script>
 </body>
 </html>
