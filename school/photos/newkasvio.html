@@ -23,7 +23,7 @@
 </div>
 
 <div class="w3-container">
-<p>Klikkaa hamburgeria tai <button onclick="w3_open()">t&auml;h&auml;n</button></p>
+<p>Klikkaa hamburgeria tai <button onclick="w3_open()">t&auml;h&auml;n</button></p> <div id="info"></div><div style="position relative; left: 0px;" id="foto"></div>
 </div>
 
 </div>
@@ -40,7 +40,10 @@ function w3_close() {
   document.getElementById("mySidebar").style.display = "none";
   document.getElementById("openNav").style.display = "inline-block";
 }
+function mustikka() {
+      document.getElementById("info").innerHTML = "none"
+      document.getElementById("foto").innerHTML = "<img src='https://www.camerabot.cf/school/photos/mustikka.jpg' height='100'></img>"
+}
 </script>
-
 </body>
 </html>
