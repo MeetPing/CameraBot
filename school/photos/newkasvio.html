@@ -6,8 +6,6 @@
 <body>
 
 <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
-  <button class="w3-bar-item w3-button w3-large"
-  onclick="w3_close()">Sulje &times;</button>
   <a onclick="mustikka()" class="w3-bar-item w3-button">Mustikka</a>
   <a onclick="puolukka()" class="w3-bar-item w3-button">Puolukka</a>
   <a onclick="paivankakkara()" class="w3-bar-item w3-button">P&auml;iva&auml;kakkara</a>
@@ -35,14 +33,13 @@
 <div id="main">
 
 <div class="w3-teal">
-  <button id="openNav" class="w3-button w3-teal w3-xlarge" onclick="w3_open()"><img src="http://cliparts.co/cliparts/Xri/nnG/XrinnG4cR.png" width="36px"></img></button>
   <div class="w3-container">
     <h1>Minun kasvioni</h1>
   </div>
 </div>
 
 <div class="w3-container">
-<p>Jos hauat n&auml;hd&auml; kasvi listan klikkaa hamburgeria tai <button onclick="w3_open()">t&auml;h&auml;n</button></p> <div id="info"></div><div style="position relative; right: 0px;" id="foto"></div>
+<p></p> <div id="info"></div><div style="position relative; right: 0px;" id="foto"></div>
 <br>Jos l&ouml;yd&auml;t virheen kirjoita siit&auml; <a href="https://github.com/MeetPing/CameraBot/issues/new?title=Kasviossa%20on%20virhe%20&body=Kirjoia%20virhe">t&auml;ss&auml;</a></div>
 <br> Kaikki kuvat on ottanut Samuel Hautam&auml;ki
 </div>
@@ -54,11 +51,7 @@ function w3_open() {
   document.getElementById("mySidebar").style.display = "block";
   document.getElementById("openNav").style.display = 'none';
 }
-function w3_close() {
-  document.getElementById("main").style.marginLeft = "0%";
-  document.getElementById("mySidebar").style.display = "none";
-  document.getElementById("openNav").style.display = "inline-block";
-}
+w3_open()
 function mustikka() {
       document.getElementById("info").innerHTML = "Nimi: Mustikka <br> Paikkakunta: Joensuu <br> Elinpaikka: Mets&auml;"
       document.getElementById("foto").innerHTML = "<img src='https://www.camerabot.cf/school/photos/mustikka.jpg' height='300'></img>"
