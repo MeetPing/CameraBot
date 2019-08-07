@@ -13,6 +13,10 @@
   <a onclick="paivankakkara()" class="w3-bar-item w3-button">P&auml;iva&auml;kakkara</a>
   <a onclick="kissankello()" class="w3-bar-item w3-button">Kissankello</a>
    <a onclick="piharatamo()" class="w3-bar-item w3-button">Piharatamo</a>
+  <a onclick="siankarsamo()" class="w3-bar-item w3-button">Siank&auml;rs&auml;m&ouml;</a>
+  <a onclick="voikukka()" class="w3-bar-item w3-button">Voikukka</a>
+  <a onclick="kultapiisku()" class="w3-bar-item w3-button">Kultapiisku</a>
+  <a onclick="timotei()" class="w3-bar-item w3-button">Timotei</a>
 </div>
 
 <div id="main">
@@ -26,7 +30,7 @@
 
 <div class="w3-container">
 <p>Jos hauat n&auml;hd&auml; kasvi listan klikkaa hamburgeria tai <button onclick="w3_open()">t&auml;h&auml;n</button></p> <div id="info"></div><div style="position relative; right: 0px;" id="foto"></div>
-</div>
+<br>Jos l&ouml;yd&auml;t virheen kirjoita siit&auml; <a href="https://github.com/MeetPing/CameraBot/issues/new?title=Kasviossa%20on%20virhe%20&body=Kirjoia%20virhe">t&auml;ss&auml;</a></div>
 
 </div>
 
@@ -91,6 +95,21 @@ function mustikka() {
                 function siankarsamo() {
       document.getElementById("info").innerHTML = "Nimi: Siank&auml;rs&auml;m&ouml; <br> Paikkakunta: Maksniemi <br> Elinpaikka: Niitty ja pietar"
       document.getElementById("foto").innerHTML = "<img src='IMG_20190717_153740_siankarsamo.jpg' height='300'></img>"
+      w3_close()
+}
+                  function joulavehna() {
+      document.getElementById("info").innerHTML = "Nimi: Joulavehn&auml; <br> Paikkakunta: Maksniemi <br> Elinpaikka: Niitty ja pietar"
+      document.getElementById("foto").innerHTML = "<img src='IMG_20190717_153601_Juolavehna.jpg' height='300'></img>"
+      w3_close()
+}//IMG_20190717_153357_punaapila.jpg
+                    function punaapila() {
+      document.getElementById("info").innerHTML = "Nimi: Punaapila <br> Paikkakunta: Maksniemi <br> Elinpaikka: Niitty ja pietar"
+      document.getElementById("foto").innerHTML = "<img src='IMG_20190717_153357_punaapila.jpg' height='300'></img>"
+      w3_close()
+}
+                      function nokkonen() {
+      document.getElementById("info").innerHTML = "Nimi: Nokkonen <br> Paikkakunta: Maksniemi <br> Elinpaikka: Niitty ja pietar"
+      document.getElementById("foto").innerHTML = "<img src='IMG_20190717_153301_nokkonen.jpg' height='300'></img>"
       w3_close()
 }
 </script>
